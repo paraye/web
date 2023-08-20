@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/e16b5cf09d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/main.css ">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="home.html"><i class="fa-solid fa-house"></i></a>
+                <a href="kif.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <a href="login.html">ثبت نام / ورود</a>
+                </div>
+
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./image/slide.1.jpg" alt="">
+                    <span style="color: white;">خرید و فروش</span>
+                </div>
+                <div class="item " id="slide2">
+                    <img src="./image/slide.2.jpg" alt="">
+                    <span style="color: black;">تعمیرات عنواع دستگاه های پزشکی</span>
+                </div>
+                <div class="item " id="slide3">
+                    <img src="./image/slide.3.jpeg" alt="">
+                    <span style="color: white;">با بیش از بیست سال سابقه</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setslide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setslide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setslide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="product-sec-new">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <a href="view-1.html"><img src="./image/zeissfl.webp" alt=""></a>
+                            
+                            <div  class="star">
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <div class="title">
+                                    میکروسکوپ جراحی زایس
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس بگیرید</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/product4.jpg" alt="">
+                           
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: white;"></i>
+                                <i class="fa-solid fa-star" style="color: white;"></i>
+                                <i class="fa-solid fa-star" style="color: white;"></i>
+                                <i class="fa-solid fa-star" style="color: white;"></i>
+                                <div class="title">
+                                    اسلیت لمپ cso ایتالیا
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس بگیرید</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text"  href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/tomey-ascan-fl.jpg" alt="">
+                           
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <div class="title">
+                                    tomey A-scan
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس بگیرید</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/rm-a6000-fl.jpg" alt="">
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <div class="title">
+                                    topcon RM-A6000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس بگیرید</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dragble-list">
+            <div class="title">
+                <span>محصولات</span>
+            </div>
+            <div id="owl-product" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <a href="view-1-drag.html"><img src="./image/canon-r50.jpg" alt=""></a>
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <div class="title">
+                                    اتورفرکتومتر کنون R-50
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="view-1-drag.html">خرید</a>
+                                    <a class="b-icon" href="view-1-drag.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                           <a href="view-2-drag.html"> <img src="./image/LM-P6-fl.jpg" alt=""></a>
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <div class="title">
+                                    لنزومتر نیمه دیجیتال تپکان
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="view-2-drag.html">خرید</a>
+                                    <a class="b-icon" href="view-2-drag.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <a href="view-3-drag.html"><img src="./image/inami-fl.jpg" alt=""></a>
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <i class="fa-solid fa-star" style="color: white"></i>
+                                <div class="title">
+                                    اسلیت لمپ اینامی
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="view-2.html">خرید</a>
+                                    <a class="b-icon" href="view-2.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <a href="view-4-drag.html"><img src="./image/topcon-3d-fl.jpg" alt=""></a>
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <i class="fa-solid fa-star" style="color:white"></i>
+                                <div class="title">
+                                    اسلیت لمپ تاپکان
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">تماس</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="view-4-drag.html">خرید</a>
+                                    <a class="b-icon" href="view-4-drag.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/device5.jpg" alt="">
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <div class="title">
+                                    nidek ARK-2000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">80,000,000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <a href="view.html">
+                            <div class="img-sec">
+                                <img src="./image/product4.jpg" alt="">
+                                
+                                <div class="star">
+                                    <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                    <div class="title">
+                                        ایتالیا slit lamp cso 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">120.000.000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="view.html">خرید</a>
+                                    <a class="b-icon" href="view.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/device7.jpg" alt="">
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <div class="title">
+                                    nidek ARK-2000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">80,000,000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/device2.jpg" alt="">
+                           
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <div class="title">
+                                    nidek ARK-2000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">80,000,000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/device2.jpg" alt="">
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <div class="title">
+                                    nidek ARK-2000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">80,000,000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/device2.jpg" alt="">
+                            
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <div class="title">
+                                    nidek ARK-2000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">80,000,000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/super-product.jpg" alt="">
+                           
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffff00;"></i>
+                                <div class="title">
+                                    nidek ARK-2000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttoms">
+                            <div class="right">
+                                <span class="price">80,000,000 تومان</span>
+                                
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="call.html">تماس</a>
+                                    <a class="b-icon" href="call.html"><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                        درباره ما
+                    </div>
+                    <div class="des">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="left">
+                    <div class="title">
+                        تماس با ما
+                    </div>
+                    <div class="socials">
+                        <a href="call.html"><i class="fa-solid fa-phone"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            کلیه حقوق محفوظ می باشد 2023 ©
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script
+ src = " https://code.jquery.com/jquery-3.4.1.min.js "
+  integrity = " sha256 - CSXorXvZcTkaix6Yvo6HppcZGet bYMGWSF1Bw8HfCJo = "
+  crossorigin = " anonymous ">
+</script>
+<script src="./js/jquery.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script>
+    const input =document.querySelector('.search input');
+    const button = document.querySelector('.search button');
+
+    button.addEventListener('click', function()  {
+        input.classList.toggle('active');
+        input.focus();
+    } )
+    
+    
+</script>
+</body>
+</html>
