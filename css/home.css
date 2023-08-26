@@ -327,6 +327,7 @@ animation-duration: 2s;
   }
 
   .product-view .product-view-box{
+      background-color:#d2dae2;
     text-align: center;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
     border-radius: 5px;
